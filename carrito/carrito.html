@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito - MVD Sports</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="navbar container">
+            <div id="logo">
+                <h1>Mvd Sports</h1>
+                <p>tu tienda deportiva</p>
+            </div>
+            <ul class="nav-links">
+            </ul>
+            <div class="navbar">
+                <a class="btnNavbar carrito" href="/index.html">ir al inicio</a>
+            </div>
+        </div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section>
+            <h2>Su Pedido:</h2>
+            <p class="carrito-vacio" id="carrito-vacio">No hay productos en su carrito 🤔</p>
+            <div class="carrito-productos" id="carrito">
+                <!-- Aca van los productos del carrito -->
+            </div>
+            <div>
+                <h3 class="carrito-precio" id="carrito-precio">$0</h3>
+            </div>
+            <div class="navbar">
+                <p class="btnNavbar" id="btn-limpiar">Limpiar Carrito</p>
+                <p class="btnNavbar" id="btn-finalizar">Finalizar Compra</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Mvd Sports © all rights reserved</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/carrito.js"></script>
+</body>
+</html>

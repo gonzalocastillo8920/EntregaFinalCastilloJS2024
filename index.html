@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Mvd Sports</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="navbar container">
+            <div id="logo">
+                <h1>Mvd Sports</h1>
+                <p>tu tienda deportiva</p>
+            </div>
+            <ul class="nav-links" id="navbar-categorias">
+                <!-- Esto se completa con las categorias desde JS -->
+            </ul>
+            <div class="navbar">
+                <a class="btnNavbar carrito" href="/carrito/carrito.html">Carrito</a>
+                <p class="carrito-precio" id="carrito-precio">$0</p>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main class="container">
+        <section>
+            <h2>Productos:</h2>
+            <div class="productos" id="productos">
+                <!-- Esto se llenara con productos desde JS -->
+            </div>
+            <div class="productos d-none" id="main-categorias">
+                <!-- Esto se completa cuando se toca el boton de la navbar -->
+            </div>
+            <div class="productos" id="carrito"></div>
+                <!-- Aca van los productos del carrito -->
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>Mvd Sports © all rights reserved</p>
+        </div>
+    </footer>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
